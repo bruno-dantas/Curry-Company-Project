@@ -162,7 +162,7 @@ df1 = clean_code( df )
 st.header( 'Marketplace - Visão Restaurantes' )
 
 #image_path = 'C:\\Users\\brunn\\Documents\\repos\\FTC_jupyterlab\\images\\curry.png'
-image = Image.open( 'curry.png' )
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120, use_column_width=True)
 
 st.sidebar.markdown( '# Curry Company' )
