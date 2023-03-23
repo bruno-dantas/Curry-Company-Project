@@ -7,7 +7,7 @@ st.set_page_config(
 
 #image_path = 'C:\\Users\\brunn\\Documents\\repos\\FTC_jupyterlab\\images'
 image = Image.open( 'logo.png' )
-st.sidebar.image( image, use_column_width='auto')
+st.sidebar.image( image, width=120)
 
 st.sidebar.markdown( '# Curry Company' )
 st.sidebar.markdown( '## Fastest Delivery in Town' )
