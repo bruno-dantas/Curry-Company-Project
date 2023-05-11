@@ -2,6 +2,8 @@
 from haversine import haversine
 import plotly.express as px
 import plotly.graph_objects as go
+import altair as alt
+from vega_datasets import data
 
 # bibliotecas necessárias
 import folium
