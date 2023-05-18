@@ -178,9 +178,9 @@ st.sidebar.markdown( '## Selecione uma data limite' )
 
 date_slider = st.sidebar.slider( 
     'Até qual valor?',
-    value=pd.Timestamp( 2022, 4, 13 ),
-    min_value=pd.Timestamp(2022, 2, 11 ),
-    max_value=pd.Timestamp( 2022, 4, 6 ),
+    value=pd.Timestamp('2022-04-13'),
+    min_value=pd.Timestamp('2022-02-11'),
+    max_value=pd.Timestamp('2022-04-06'),
     format='DD-MM-YYYY' )
 
 st.sidebar.markdown( """---""" )
