@@ -8,7 +8,6 @@ from vega_datasets import data
 # bibliotecas necessárias
 import folium
 import pandas as pd
-from datetime import datetime
 import numpy  as np
 import streamlit as st
 from PIL import Image
